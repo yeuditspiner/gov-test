@@ -1,15 +1,24 @@
-# Postman Collection for Gov.il API Tests
+# Gov.il API Testing Suite
 
-This repository contains a Postman collection for testing Israeli government APIs.
+This repository contains both Postman and Cypress tests for Israeli government APIs.
 
-## Files
-- `postman_part.postman_collection.json` - Postman collection with API tests for gov.il
+## 📁 Files
+- `postman_part.postman_collection.json` - Postman collection with API tests
+- `cypress/e2e/gov-api-tests.cy.js` - Cypress E2E tests
+- `cypress.config.js` - Cypress configuration
 
-## Usage
+## 🚀 Postman Usage
 1. Import the collection into Postman
 2. Set the `baseURL` variable to `https://www.gov.il`
 3. Run the tests
 
-## API Endpoints Tested
+## 🧪 Cypress Usage
+```bash
+npm install
+npm run cypress:open  # Interactive mode
+npm run cypress:run   # Headless mode
+```
+
+## 🔗 API Endpoints Tested
 - `/govil-landing-page-api/he` - Government offices and departments
 - `/govilHF/api/GetServices?culture=he` - Government services

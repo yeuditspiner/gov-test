@@ -1,0 +1,15 @@
+{
+  "name": "postman-only",
+  "version": "1.0.0",
+  "description": "This repository contains a Postman collection for testing Israeli government APIs.",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
